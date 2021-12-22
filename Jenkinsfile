@@ -1,7 +1,7 @@
 pipeline{
   agent any 
   stages{
-    stage('git){
+    stage('git'){
           steps{
             git 'https://github.com/796sarthak/firstcode'
           }
