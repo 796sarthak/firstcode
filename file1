@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('pranveer hardware') {
+            steps {
+                echo 'lohe k saman yha milta h '
+            }
+        }
+    }
+}
